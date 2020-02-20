@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import * as actions from './vehicle-booking-action';
 import { vehiclebooking, getAllcategory } from './vehicle-booking-action';
 import { bindActionCreators } from 'redux';
-// import vehiclebooking from './vehicle-booking-action';
+
 class VehicleBookingComponent extends Component {
   constructor(props) {
     super(props);
@@ -57,41 +57,12 @@ class VehicleBookingComponent extends Component {
 
     console.log(this.state.phoneNumber.length);
 
-    // if (this.state.category.length === 0) {
-    //   tempError.categoryError = "category should not be empty";
-    //   error = true;
-    // } else {
-    //   tempError.categoryError = '';
-    // }
-
     if (this.state.phoneNumber.length === 0) {
       tempError.phoneNumberError = "phoneNumber should not be empty";
       errors = true;
     } else {
       tempError.phoneNumberError = '';
-    }
-
-    
-    // if(this.state.password.length === 0){
-    //     tempError.passwordError = "Password should not be empty"; 
-    //     error = true;
-    // }else{
-    //     tempError.passwordError = '';
-    // }
-
-    // if(this.state.role.length === 0){
-    //     tempError.roleError = "Role should not be empty"; 
-    //     error = true;
-    // }else{
-    //     tempError.roleError = '';
-    // }
-
-    // if(this.state.mob.length === 0){
-    //     tempError.mobileError = "Mobile No. should not be empty"; 
-    //     error = true;
-    // }else{
-    //     tempError.mobileError = '';
-    // }
+    }   
 
     if (errors) {
       console.log(errors);
@@ -123,9 +94,7 @@ class VehicleBookingComponent extends Component {
         complain: complaint,
         delivery_type: serviceRadio,
         startDate: date+' '+time,
-        // time: time
-      };
-      // this.props.submitRequest(booking);
+      };      
 
       const { dispatch } = this.props;
       dispatch(actions.vehiclebooking(booking));
@@ -140,10 +109,9 @@ class VehicleBookingComponent extends Component {
       serviceRadio : e.target.value
     })
   };
-  render() {
-    // console.log("AllCategory: ", this.props.allCategory.data);
+  render() {    
     let category = this.props.allCategory && this.props.allCategory.data
-    // console.log('çat :', category);
+    
     return (
       <div className="bodycolor">
         <CustomerNavbarComponent />
@@ -324,12 +292,6 @@ class VehicleBookingComponent extends Component {
     )
   }
 }
-// const mapDispatchToProps = dispatch => {
-//   return {
-//     // dispatching plain actions
-//     submitRequest: (data) => dispatch(vehiclebooking(data)),
-//   }
-// }
 
 const mapStateToProps = state => {
   return {

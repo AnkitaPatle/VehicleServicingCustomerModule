@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import { Form, Row, Col, FormGroup,Table} from 'reactstrap';
-// import NavBar from "../NavBar/NavBar";
 
 class VehicleTracking extends Component {
 
     constructor() {
         super();
         this.state={
-            // serviceDate: '08/30/2019',
-            // vehicleType: 'Honda Activa',
 
         serviceHistoryList: [
                 {
@@ -71,18 +68,8 @@ class VehicleTracking extends Component {
 
         return (
             <div className="">
-                {/* <NavBar></NavBar> */}
                     <div className="mainDiv">
                         <br/>
-                        {/* <h1 style={{textAlign:'center'}}>Vehicle Status</h1>
-                        <Row style={{marginTop:'8%'}}>
-                            <Col lg={4}>
-                                <label>Vehicle Type: {this.state.vehicleType}</label>
-                            </Col>
-                            <Col>
-                                <label>Service Date : {this.state.serviceDate}</label>
-                            </Col>
-                        </Row> */}
                         <Form style={{border:'1px solid', borderColor:'lightgrey'}}>
                             <Row>
                                 <Col lg={12}>
