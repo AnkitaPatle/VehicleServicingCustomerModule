@@ -1,0 +1,24 @@
+nav.side-bar-nav ul {
+  padding: 0;
+}
+nav.side-bar-nav ul li {
+  list-style: none;
+}
+nav.side-bar-nav ul li a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+}
+.Login-block {
+  width: 100%;
+}
+.card {
+  margin: 30px;
+  -webkit-box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, 0.31);
+  border-radius: 10px;
+}

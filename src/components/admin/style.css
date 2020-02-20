@@ -1,0 +1,119 @@
+.container-fluid{
+  padding: 0px;
+}
+
+.header{
+  height: 70px;
+  background: #0b3260
+}
+
+.maincontent{
+  padding:20px
+}
+.App-logo {
+
+
+}
+
+.App-logo2{
+  padding: 1.5%;
+  margin-top:2%;
+  font-weight: bold;
+ color: #ffd900;
+}
+.Logo-Main{
+  height: 50px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  color: white;
+}
+.footer{
+  height: 50px;
+  background: #0b3260
+}
+
+.btn-addClient, .btn-addHrisAts {
+  float: right;
+}
+
+.btn-submit{
+  float: right;
+}
+.mr2{
+  color: white;
+  font-size: rem;
+}
+
+.card-dashboard{
+  height: 100%;
+    width: 200px;
+    margin-right: 5%;
+    float: left;
+    background-color: #33ccff;
+    flex-direction: inherit;
+    color:white;
+    font-size: 1rem;
+  }
+.color-yellow{
+    background-color: #cccc00;
+}
+.color-blue{
+  background-color: #0066ff  ;
+}
+.top-container{
+  height: 130px;
+  width: 100%;
+}
+.card-right{
+  width: 30%;
+  float: left;
+  padding: 7%;
+  font-size: 25px;
+
+}
+.card-left{
+  width: 70%;
+  float: left;
+  padding:6%;
+}
+.font-2rem{
+  font-size: 2rem;
+}
+
+.bottom-container{
+  padding: 10%;
+}.searchTextStyle {
+  width: 28%;
+  height: 49px;
+    border: 1px solid;
+    border-color: darkgray;
+    border-radius: 0.5rem;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.searchLable{
+  margin-left: 5%;
+  display: block;
+  font-size: 1.1em;
+  margin-top: 4%;
+  text-align: left;
+}
+.search-icon{
+  margin-left: -22px;
+  color: #aaacaf;
+}
+
+.invalid{
+  border:1px solid #D8000C !important
+}
+.errorMessage{
+  color : #D8000C;
+  height: 5px;
+}
+
+
+.adminassignbtn , .admitSubmitbtn , .adminvehiclebtn{
+  background-image: linear-gradient(#ff9100, yellow) !important;
+}

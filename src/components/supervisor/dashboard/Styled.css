@@ -1,0 +1,90 @@
+.gridwrapper {
+	padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.select-dropdown {
+	padding: 10px;
+	border-radius: 5px;
+	width: 25%;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.select-dropdown + button {
+	width: 100px;
+	padding: 10px;
+}
+
+.table .collapse-container { 
+	padding: 0; 
+	border: 0;
+}
+
+.nav-tabs .nav-link,
+.view-details { cursor: pointer; }
+
+.nav-tabs .nav-link {
+	border: none;
+}
+
+.nav-tabs .nav-link:hover {
+	border-bottom: 8px solid #d39e00;
+}
+
+.nav-tabs .nav-link.active {
+	border: 0;
+    border-bottom: 8px solid #d39e00;
+}
+
+.table {
+	border-bottom: 1px solid #dee2e6;
+}
+
+.table td.collapse-container {
+	padding-left: 5%;
+	background-color: #f5f5dc;
+}
+
+.table i.fa {
+	font-size: 30px;
+    color: green;
+}
+
+.table i.fa-times-circle {
+	color: #f00;
+}
+
+.table i.fa-file-pdf-o {
+	color: #F1C40F;
+}
+
+.vehicle-status {
+	margin-bottom: 50px;
+}
+
+.pagination-wrapper {
+	float: right;
+}
+
+.pagination-wrapper + .row {
+	clear: both;
+}
+
+.pagination-wrapper .page-item .page-link {
+	border-radius: 50%;
+    width: 35px;
+	height: 35px;
+	border: none;
+	background: transparent;
+	box-shadow: none;
+}
+
+.pagination-wrapper .page-item.active .page-link {
+	background-color: #F1C40F;
+}
+

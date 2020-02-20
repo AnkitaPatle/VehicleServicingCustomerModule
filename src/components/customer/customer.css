@@ -1,0 +1,32 @@
+#profileimg {   
+    width: 60;
+    height: 60;
+    background-color: "#eeeeee";    
+    border-radius: 60;
+    font-size: 30;    
+    text-align: "center";
+  }
+
+  .bodycolor {
+    background-color: "#F4F6F6";
+  }
+
+  .gridwrapper {   
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 2em;
+    margin-left: 14em;
+    margin-right: 6em;   
+  }
+
+  .styledsidenav {
+    position: fixed;     /* Fixed Sidebar (stay in place on scroll and position relative to viewport) */
+    height: 100%;
+    width: 15%;     /* Set the width of the sidebar */
+    z-index: 1;      /* Stay on top of everything */
+    top: 3.4em;      /* Stay at the top */
+    background-color: #222326; /* Black */
+    overflow-x: hidden;     /* Disable horizontal scroll */
+    padding-top: 10px;
+
+  }

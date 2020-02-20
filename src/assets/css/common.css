@@ -1,0 +1,7 @@
+/* Nav NavItem {
+  display: inline-block;
+  padding: 0 10px;
+}
+Nav NavItem ~ NavItem {
+  border-left: 1px solid #333;
+} */

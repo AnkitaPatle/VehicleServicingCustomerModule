@@ -1,0 +1,154 @@
+
+
+
+
+.container{
+  max-width: 70% !important;
+  padding: 1%;
+ 
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.sidebar {
+  min-width: 300px;
+  max-width: 250px;
+  background: #282c34;;
+  color: #fff;
+  margin-left: -250px;
+  transition: all 0.5s;
+  position: absolute;
+}
+.ul-style{
+  align-items: flex-start !important;
+}
+
+.sidebar.is-open {
+  margin-left: 0;
+  transition: .5s;
+}
+
+
+.sidebar-header {
+  background: #282c34;
+}
+
+.sidebar-header h3{
+  color: #fff;
+  padding: 1em;
+}
+
+.sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+.menu-open {
+  background: #6d7fcc;
+}
+
+.nav-item:hover {
+    color: #0b3260;
+
+}
+.navStyle:hover{
+   
+    color: #0b3260;
+   
+    background: #ffc107;
+}
+
+.items-menu {
+  color: #fff;
+  background: #6d7fcc;
+}
+
+li a.dropdown-toggle::after {
+    display: inline-flex;
+    position: relative;
+    left: 60%;
+    top: 10%
+}
+
+.sidebar-header > span {
+    position: relative;
+    float: right;
+    margin: .5em;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+.side-menu {
+  height: calc(100vh - 50px);
+  
+}
+
+.side-menu::-webkit-scrollbar {
+  width: 10px;
+}
+
+.side-menu::-webkit-scrollbar-thumb {
+  background: #0b3260; 
+  border-radius: 3px;
+}
+
+.side-menu::-webkit-scrollbar-thumb:hover {
+  background: #3A4C99; 
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+.content {
+  margin-left: 0;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      overflow:  hidden;
+    }
+
+    .content.is-open {
+      margin-left: 100%;
+    }
+
+    .sidebar.is-open {
+      min-width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+      transition: all 0.5s, height 0s;
+    }
+
+    .sidebar.is-open > .sidebar-header span{
+      display: unset;
+    }
+
+    li a.dropdown-toggle::after {
+        display: inline-block;
+        position: relative;
+        left: 68%;
+    }
+}
+
+.button-menu{
+  margin-right: 10px;
+  height: 33px;
+  font-size: 10px;
+}
+.admin-navlik{
+      color: #ffffff !important;
+}.manageDiv{
+  width: 50%;
+  margin-left: 20%;
+}
+i.fa {
+  font-size: 30px;
+  color: white;
+}

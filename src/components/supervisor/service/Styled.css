@@ -1,0 +1,23 @@
+.service-form {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.service-form .btn-warning {
+    width: 20%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 30px auto;
+    display: block;
+}
+
+.error { 
+    width: 100%; 
+    min-height: 20px;
+}
+
+.search-bar { margin-bottom: 50px; }

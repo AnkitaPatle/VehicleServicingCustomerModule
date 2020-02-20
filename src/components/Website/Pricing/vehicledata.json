@@ -1,0 +1,386 @@
+[
+    {
+        "Service_Id" : 1,
+        "Service_Name" : "Health Inspection",
+       "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    
+    },
+    {
+        "Service_Id" : 2,
+        "Service_Name" : "Routine Servicing",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+       
+    },
+    {
+        "Service_Id" : 3,
+        "Service_Name" : "Clutch Cable replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" :4,
+        "Service_Name" : "Carburettor Drain/Setting",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 5,
+        "Service_Name" : "Carburettor Clean",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 6,
+        "Service_Name" : "Front Fork Oil or Seal replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 7,
+        "Service_Name" : "Front Brake shoe setting",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 8,
+        "Service_Name" : "Rear Brake shoe setting",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 9,
+        "Service_Name" : "Front Brake shoe replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 10,
+        "Service_Name" : "Rear Brake shoe replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 11,
+        "Service_Name" : "Disc Brake pad replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 12,
+        "Service_Name" : "Disc plate replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 13,
+        "Service_Name" : "Master cylinder overhaul/ repalcement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 14,
+        "Service_Name" : "Brakes cleaning",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 15,
+        "Service_Name" : "Disc oil Top up",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 16,
+        "Service_Name" : "Accelerator cable replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 17,
+        "Service_Name" : "Speedometer cable replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 18,
+        "Service_Name" : "Choke Cable replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 19,
+        "Service_Name" : "Brake Cable Replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 20,
+        "Service_Name" : "Clutch lever replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 21,
+        "Service_Name" : "Brake lever replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 22,
+        "Service_Name" : "Tyre Replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 23,
+        "Service_Name" : "Cone Set replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 24,
+        "Service_Name" : "Fork Bend Removal",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 25,
+        "Service_Name" : "Main Stand replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 26,
+        "Service_Name" : "Lock set Replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 27,
+        "Service_Name" : "Ignition Lock replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 28,
+        "Service_Name" : "Chain sprocket replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 29,
+        "Service_Name" : "Battery replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 30,
+        "Service_Name" : "Battery charging",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 31,
+        "Service_Name" : "Headlight bulb replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 32,
+        "Service_Name" : "Tail light bulb replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 33,
+        "Service_Name" : "Indicator bulb or Indicator replacement",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 34,
+        "Service_Name" : "Half Engine Overhaul",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 35,
+        "Service_Name" : "Full Engine Overhaul",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 36,
+        "Service_Name" : "Clutch Overhaul",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    {
+        "Service_Id" : 37,
+        "Service_Name" : "Tappet adjustment",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    },
+    
+    {
+        "Service_Id" : 38,
+        "Service_Name" : "Chain Cleaning/Overhaul",
+        "cc_80_135": 199,
+       "cc_135_180":199,
+       "cc_200_above":199,
+       "Moped" : 199 ,
+       "Bullet" : 199,
+       "KTM" : 199
+    }
+    
+    ]

@@ -1,0 +1,20 @@
+[
+    {
+        "Id" : 1,
+        "Car_Name" : "Hatchback",
+        "Full_Part_Denting_Painting" : 3000,
+        "Partial_part_denting_Painting" : 2000
+    },
+    {
+        "Id" : 2,
+        "Car_Name" : "Sedan",
+        "Full_Part_Denting_Painting" : 3000,
+        "Partial_part_denting_Painting" : 2000
+    },
+    {
+        "Id" : 3,
+        "Car_Name" : "SUV",
+        "Full_Part_Denting_Painting" : 3000,
+        "Partial_part_denting_Painting" : 2000
+    }
+]
